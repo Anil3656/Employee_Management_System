@@ -1,4 +1,4 @@
-Employee Management System 🏢
+<h1>Employee Management System 🏢<h1>
 <p align="center"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="status"/> <img src="https://img.shields.io/github/license/your-username/employee-management-system?style=for-the-badge" alt="license"/> <img src="https://img.shields.io/github/stars/your-username/employee-management-system?style=for-the-badge" alt="stars"/> </p>
 📌 Overview
 
@@ -19,9 +19,6 @@ The Employee Management System (EMS) is a web application that helps manage empl
 # Clone repo
 git clone https://github.com/your-username/employee-management-system.git
 cd employee-management-system
-
-# Setup database
-# (update your DB credentials in application.properties / settings.py)
 
 # Run project
 mvn spring-boot:run   # For Spring Boot
