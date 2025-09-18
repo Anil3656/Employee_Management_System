@@ -1,4 +1,4 @@
-<h1>Employee Management System 🏢<h1>
+Employee Management System 🏢
 <p align="center"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="status"/> <img src="https://img.shields.io/github/license/your-username/employee-management-system?style=for-the-badge" alt="license"/> <img src="https://img.shields.io/github/stars/your-username/employee-management-system?style=for-the-badge" alt="stars"/> </p>
 📌 Overview
 
