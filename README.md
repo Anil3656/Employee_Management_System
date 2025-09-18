@@ -1,5 +1,5 @@
 # Employee Management System 🏢
-<p align="center"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="status"/> <img src="https://img.shields.io/github/license/your-username/employee-management-system?style=for-the-badge" alt="license"/> <img src="https://img.shields.io/github/stars/your-username/employee-management-system?style=for-the-badge" alt="stars"/> </p>
+<p align="auto"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="status"/> <img src="https://img.shields.io/github/license/your-username/employee-management-system?style=for-the-badge" alt="license"/> <img src="https://img.shields.io/github/stars/your-username/employee-management-system?style=for-the-badge" alt="stars"/> </p>
 
 # Overview
 The Employee Management System (EMS) is a web application that helps manage employee records effectively. It demonstrates CRUD operations, authentication, and database integration while providing a user-friendly interface.
