@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}">Employee Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f093fb, #f5576c, #4facfe, #00f2fe);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            margin: 0;
+            padding: 0;
+        }
+
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 60px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        input.form-control {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        .btn-primary {
+            background-color: #4facfe;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #00f2fe;
+        }
+
+        .btn-secondary {
+            background-color: #ccc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: black;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .text-danger {
+            font-size: 14px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2 th:text="${title}">Employee Form</h2>
+
+    <form th:action="@{${formAction}}" th:object="${employee}" method="post">
+        <div>
+            <label for="name">Name <span class="text-danger">*</span></label>
+            <input type="text" th:field="*{name}" id="name" class="form-control" placeholder="Enter name" required>
+            <div class="text-danger" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></div>
+        </div>
+
+        <div>
+            <label for="email">Email <span class="text-danger">*</span></label>
+            <input type="email" th:field="*{email}" id="email" class="form-control" placeholder="Enter email" required>
+            <div class="text-danger" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></div>
+        </div>
+
+        <div>
+            <label for="department">Department <span class="text-danger">*</span></label>
+            <input type="text" th:field="*{department}" id="department" class="form-control" placeholder="Enter department" required>
+            <div class="text-danger" th:if="${#fields.hasErrors('department')}" th:errors="*{department}"></div>
+        </div>
+
+        <button type="submit" class="btn-primary" th:text="${buttonText}">Submit</button>
+        <a href="/employees" class="btn-secondary">Cancel</a>
+    </form>
+</div>
+</body>
+</html>
