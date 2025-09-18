@@ -30,7 +30,7 @@ Want to contribute? Fork the repo and submit a pull request.
 # Author🧑‍💻 
 Aneel Kumar Muppana
 
-🌐 Portfolio <p align="center"> <img src="https://anil3656.github.io/Portfolio-/&logo=portifolio&logoColor=white"/></p>
+🌐 Portfolio
 
 💼 LinkedIn
 
