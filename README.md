@@ -1,12 +1,12 @@
 # Employee Management System 🏢
 <p align="center"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="status"/> <img src="https://img.shields.io/github/license/your-username/employee-management-system?style=for-the-badge" alt="license"/> <img src="https://img.shields.io/github/stars/your-username/employee-management-system?style=for-the-badge" alt="stars"/> </p>
-# Overview
 
+# Overview
 The Employee Management System (EMS) is a web application that helps manage employee records effectively. It demonstrates CRUD operations, authentication, and database integration while providing a user-friendly interface.
 
 <p align="center"> <a href="https://github.com/your-username/employee-management-system"> <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> </a> <a href="https://your-demo-link.com"> <img src="https://img.shields.io/badge/Live%20Demo-28a745?style=for-the-badge&logo=vercel&logoColor=white"/> </a> <a href="https://your-docs-link.com"> <img src="https://img.shields.io/badge/Documentation-0078D4?style=for-the-badge&logo=readthedocs&logoColor=white"/> </a> </p>
-# Features
 
+# Features
 ✅ Add, edit, delete employees
 ✅ Search & filter employees
 ✅ Authentication & Role-based Access
@@ -30,7 +30,7 @@ Want to contribute? Fork the repo and submit a pull request.
 # Author🧑‍💻 
 Aneel Kumar Muppana
 
-🌐 Portfolio
+🌐 Portfolio <p align="center"> <img src="https://anil3656.github.io/Portfolio-/&logo=portifolio&logoColor=white"/></p>
 
 💼 LinkedIn
 
